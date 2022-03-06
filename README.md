@@ -7,8 +7,11 @@
 **Nota**: É o único _objeto listener_ que não precisa ser configurado nem no arquivo web.xml e nem com @WebListener.
 
 <h1> Objetivo do projeto </h1>
+
 - Instanciar o objeto produto na sessão criada;
+
 - O nome do objeto produto é adicionado a uma sessão através da interface HttpSessionBindingListener;
+
 - Recuperar este atributo via log no container. Vide imagem abaixo:
 
 
